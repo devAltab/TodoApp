@@ -58,7 +58,7 @@ function App() {
     let newtodos = [...todos];
     newtodos[index].isCompleted = !newtodos[index].isCompleted;
     settodos(newtodos)
-    // saveToLS()
+    
   }
 
   return (
